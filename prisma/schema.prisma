@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model User {
+  id         Int     @id @default(autoincrement())
+  telegramId BigInt  @unique
+  settings   String?
+  language   String  @default("en")
+}
+
+model Cache {
+  id             Int      @id @default(autoincrement())
+  sourceUrl      String   @unique
+  videoFileId    String?
+  audioFileId    String?
+  videoMessageId Int?
+  audioMessageId Int?
+  title          String?
+  artists        String?
+  album          String?
+  fileName       String?
+  createdAt      DateTime @default(now())
+}
