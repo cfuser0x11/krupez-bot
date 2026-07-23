@@ -1,0 +1,26 @@
+{
+  "resource": {
+    "name": "sessions/1005272484445858609",
+    "title": "PR: Merge dev into main (krupez-modules)",
+    "sourceContext": {
+      "source": "sources/github/cfuser0x11/krupez-modules",
+      "githubRepoContext": {
+        "startingBranch": "main"
+      }
+    },
+    "prompt": "Create a Pull Request to merge the dev branch into the main branch for repository cfuser0x11/krupez-modules. Include all commit history and comments from dev, handle any merge conflicts by taking dev files, and submit the PR.",
+    "url": "https://jules.google.com/session/1005272484445858609",
+    "id": "1005272484445858609",
+    "automationMode": "AUTO_CREATE_PR",
+    "archived": false,
+    "state": "unspecified",
+    "outputs": [],
+    "outcome": {
+      "sessionId": "1005272484445858609",
+      "title": "PR: Merge dev into main (krupez-modules)",
+      "state": "completed",
+      "outputs": []
+    }
+  },
+  "_lastSyncedAt": 1784812727055
+}

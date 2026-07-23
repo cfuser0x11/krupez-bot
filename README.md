@@ -6,6 +6,13 @@ Built with **Node.js**, **TypeScript**, **Telegraf**, **Prisma ORM** (SQLite), *
 
 ---
 
+## External App Modules
+
+Extensible platform extractors (TikTok, Instagram, Twitter/X, Spotify, Yandex, etc.) are hosted in a dedicated repository:
+[krupez-modules](https://github.com/cfuser0x11/krupez-modules)
+
+---
+
 ## Features
 
 - **Ultra-Fast Media Extraction**: Direct Cobalt-style API scrapers for TikTok, Instagram, Twitter/X, and YouTube for 1–3 second delivery times.
@@ -17,7 +24,6 @@ Built with **Node.js**, **TypeScript**, **Telegraf**, **Prisma ORM** (SQLite), *
 - **Group & Channel Support**: Automatic cleanup of `/d` command messages in public groups and channels before starting downloads.
 - **ANSI Colored Logger**: Configurable `LOG_LEVEL` (`debug`, `info`, `warn`, `error`, `silent`) with real-time colored timestamps.
 - **Auto Storage Cleanup**: Automatic sweeping of temporary files (`downloads/`), sidecar thumbnails, and covers.
-- **External Module Ecosystem**: App platform modules are managed and extended via [krupez-modules](https://github.com/cfuser0x11/krupez-modules).
 
 ---
 
@@ -133,13 +139,6 @@ Set `LOG_LEVEL` in your `.env` or pass it inline on launch:
 | `warn` | Displays warnings and errors only. |
 | `error` | Displays critical failure errors only. |
 | `silent` | Disables all console output. |
-
----
-
-## External App Modules
-
-Extensible platform extractors (TikTok, Instagram, Twitter/X, Spotify, Yandex, etc.) are hosted in a dedicated repository:
-[krupez-modules](https://github.com/cfuser0x11/krupez-modules)
 
 ---
 

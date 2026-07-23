@@ -1,0 +1,26 @@
+{
+  "resource": {
+    "name": "sessions/7887557522042268724",
+    "title": "PR: Merge dev into main (krupez-bot)",
+    "sourceContext": {
+      "source": "sources/github/cfuser0x11/krupez-bot",
+      "githubRepoContext": {
+        "startingBranch": "main"
+      }
+    },
+    "prompt": "Create a Pull Request to merge the dev branch into the main branch for repository cfuser0x11/krupez-bot. Include all commit history and comments from dev, handle any merge conflicts by taking dev files, and submit the PR.",
+    "url": "https://jules.google.com/session/7887557522042268724",
+    "id": "7887557522042268724",
+    "automationMode": "AUTO_CREATE_PR",
+    "archived": false,
+    "state": "unspecified",
+    "outputs": [],
+    "outcome": {
+      "sessionId": "7887557522042268724",
+      "title": "PR: Merge dev into main (krupez-bot)",
+      "state": "completed",
+      "outputs": []
+    }
+  },
+  "_lastSyncedAt": 1784812726065
+}

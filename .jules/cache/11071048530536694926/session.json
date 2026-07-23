@@ -1,0 +1,28 @@
+{
+  "resource": {
+    "name": "sessions/11071048530536694926",
+    "title": "Merge dev branch into main",
+    "createTime": "2026-07-23T12:42:17.026636207Z",
+    "updateTime": "2026-07-23T12:42:20.838121Z",
+    "state": "queued",
+    "sourceContext": {
+      "source": "sources/github/cfuser0x11/krupez-bot",
+      "githubRepoContext": {
+        "startingBranch": "main"
+      },
+      "environmentVariablesEnabled": true
+    },
+    "prompt": "Merge the dev branch into the main branch for repository cfuser0x11/krupez-bot. Create a Pull Request from dev to main with all commit comments, resolve any merge conflicts in favor of dev, and submit the PR.",
+    "url": "https://jules.google.com/session/11071048530536694926",
+    "id": "11071048530536694926",
+    "archived": false,
+    "outputs": [],
+    "outcome": {
+      "sessionId": "11071048530536694926",
+      "title": "Merge dev branch into main",
+      "state": "completed",
+      "outputs": []
+    }
+  },
+  "_lastSyncedAt": 1784810557851
+}
