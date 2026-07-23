@@ -24,6 +24,10 @@ downloads/
 bin/
 dev/
 
+# External modules folder (keep directory structure, ignore contents)
+src/apps/*
+!src/apps/.gitkeep
+
 # IDE and OS files
 .DS_Store
 .vscode/
