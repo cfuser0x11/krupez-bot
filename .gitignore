@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment and logs
+.env
+bot.log
+bot.pid
+*.log
+
+# Database and Prisma storage
+prisma/*.db
+prisma/*.db-journal
+prisma/dev.db
+*.db
+*.db-journal
+
+# Temporary download storage
+downloads/
+
+# Binaries and dev management
+bin/
+dev/
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
