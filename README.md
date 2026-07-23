@@ -1,4 +1,4 @@
-# 🚀 Krupez Bot (`krupez-bot`)
+# Krupez Bot (`krupez-bot`)
 
 **Krupez Bot** is a high-speed, multi-instance Telegram bot daemon designed for downloading videos, audio tracks, photos, and media slideshows from YouTube, TikTok, Instagram, Twitter/X, Spotify, Yandex Music, VK, and 20+ other platforms. 
 
@@ -6,22 +6,22 @@ Built with **Node.js**, **TypeScript**, **Telegraf**, **Prisma ORM** (SQLite), *
 
 ---
 
-## ✨ Features
+## Features
 
-- **⚡ Ultra-Fast Media Extraction**: Direct Cobalt-style API scrapers for TikTok, Instagram, Twitter/X, and YouTube for 1–3 second delivery times.
-- **🤖 Multi-Bot Architecture**: Run multiple Telegram bot instances simultaneously in a single process.
-- **💾 Database Caching**: Prisma + SQLite caching to immediately resend cached media without re-downloading.
-- **💬 Dual Delivery Modes**:
+- **Ultra-Fast Media Extraction**: Direct Cobalt-style API scrapers for TikTok, Instagram, Twitter/X, and YouTube for 1–3 second delivery times.
+- **Multi-Bot Architecture**: Run multiple Telegram bot instances simultaneously in a single process.
+- **Database Caching**: Prisma + SQLite caching to immediately resend cached media without re-downloading.
+- **Dual Delivery Modes**:
   - **Direct Chat**: Interactive commands (`/d`, `/download`, `/ddd`), format choice prompts, and settings menu.
   - **Inline Query Mode**: Type `@botusername <link>` in any chat to share media directly.
-- **📢 Group & Channel Support**: Automatic cleanup of `/d` command messages in public groups and channels before starting downloads.
-- **🎨 ANSI Colored Logger**: Configurable `LOG_LEVEL` (`debug`, `info`, `warn`, `error`, `silent`) with real-time colored timestamps.
-- **🧹 Auto Storage Cleanup**: Automatic sweeping of temporary files (`downloads/`), sidecar thumbnails, and covers.
-- **🧩 External Module Ecosystem**: App platform modules are managed and extended via [krupez-modules](https://github.com/cfuser0x11/krupez-modules).
+- **Group & Channel Support**: Automatic cleanup of `/d` command messages in public groups and channels before starting downloads.
+- **ANSI Colored Logger**: Configurable `LOG_LEVEL` (`debug`, `info`, `warn`, `error`, `silent`) with real-time colored timestamps.
+- **Auto Storage Cleanup**: Automatic sweeping of temporary files (`downloads/`), sidecar thumbnails, and covers.
+- **External Module Ecosystem**: App platform modules are managed and extended via [krupez-modules](https://github.com/cfuser0x11/krupez-modules).
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - **Node.js**: v18.0.0 or higher
 - **npm** / **bun**
@@ -31,7 +31,7 @@ Built with **Node.js**, **TypeScript**, **Telegraf**, **Prisma ORM** (SQLite), *
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 1. **Clone the Repository**:
    ```bash
@@ -74,7 +74,7 @@ Built with **Node.js**, **TypeScript**, **Telegraf**, **Prisma ORM** (SQLite), *
 
 ---
 
-## 🚀 Running the Bot
+## Running the Bot
 
 ### Manual Launch (Foreground)
 Compile TypeScript and start the bot with live console logs:
@@ -105,7 +105,7 @@ Use the included helper script in `./dev/st.sh`:
 
 ---
 
-## 🤖 Bot Usage & Commands
+## Bot Usage & Commands
 
 | Command | Description |
 | :--- | :--- |
@@ -122,7 +122,7 @@ Type the bot username followed by any link in any chat:
 
 ---
 
-## 📊 Logging Levels (`LOG_LEVEL`)
+## Logging Levels (`LOG_LEVEL`)
 
 Set `LOG_LEVEL` in your `.env` or pass it inline on launch:
 
@@ -136,13 +136,13 @@ Set `LOG_LEVEL` in your `.env` or pass it inline on launch:
 
 ---
 
-## 🧩 External App Modules
+## External App Modules
 
 Extensible platform extractors (TikTok, Instagram, Twitter/X, Spotify, Yandex, etc.) are hosted in a dedicated repository:
-👉 **[krupez-modules](https://github.com/cfuser0x11/krupez-modules)**
+[krupez-modules](https://github.com/cfuser0x11/krupez-modules)
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more details.

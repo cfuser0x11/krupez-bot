@@ -24,6 +24,9 @@ downloads/
 bin/
 dev/
 
+# External modules (hosted in krupez-modules)
+src/apps/
+
 # IDE and OS files
 .DS_Store
 .vscode/
