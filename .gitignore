@@ -32,3 +32,4 @@ src/apps/*
 .DS_Store
 .vscode/
 .idea/
+.jules/
