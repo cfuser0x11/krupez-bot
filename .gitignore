@@ -24,8 +24,9 @@ downloads/
 bin/
 dev/
 
-# External modules (hosted in krupez-modules)
-src/apps/
+# External modules folder (keep directory structure, ignore contents)
+src/apps/*
+!src/apps/.gitkeep
 
 # IDE and OS files
 .DS_Store
